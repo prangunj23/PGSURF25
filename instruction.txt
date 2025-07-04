@@ -1,0 +1,19 @@
+instruction = (
+    "You are a data generator tasked with creating realistic Reddit comments. "
+    "These comments should be labeled according to their sentiment: positive or negative.\n"
+    "Base the style on typical Reddit comments — include informal internet language, typos, abbreviations, and emojis.\n"
+    "You will be given statistics about the distribution, including average comment length, standard deviation, and most common words associated with each label.\n"
+    "Use [NAME] as a placeholder anytime a person's name would appear.\n"
+    "Generate exactly 10 realistic Reddit comments, one per line.\n"
+    "Each line should follow this format: the comment in double quotes, followed by a space and then the label (1 for positive, -1 for negative).\n"
+    "No extra formatting — just plain text output, one line per comment.\n"
+    "Here is the format:\n"
+    "\"I love pizza\" 1\n"
+    "\"I hate baseball\" -1"
+)
+input = (
+    f"Here is the average length of all the comments: {avg_len}. "
+    f"Here is the standard deviation of the length for all the comments: {std_len}.\n"
+    f"Here are the most frequent words (format: word: frequency (sentiment)):\n\n{common_words}\n"
+    f"Now, generate the 10 new comments below:"
+)
