@@ -1,4 +1,4 @@
-sentences,labels
+messages,labels
 "I'm so happy for [NAME], they really deserve the promotion! 🎉",1
 "Had the worst experience at the restaurant yesterday, not going back. 😒",-1
 "Can't believe how awesome the concert was last night, still buzzing! 🎶",1
